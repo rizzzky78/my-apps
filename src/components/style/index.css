@@ -1,0 +1,27 @@
+/* */
+
+.__helos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+};
+
+.navbar-gradient {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+  animation: gradient 15s ease infinite !important;
+  background-size: 400% 400%;
+  height: 100vh;
+};
+
+@keyframes navbar-gradient {
+	0% {
+		background-position: 0% 50% !important;
+	}
+	50% {
+		background-position: 100% 50% !important;
+	}
+	100% {
+		background-position: 0% 50% !important;
+	}
+};
+
